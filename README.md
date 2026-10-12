@@ -12,19 +12,19 @@ These values are chosen for the assignment because the Requirement allows the st
 - Checkout is ready only when quantity > 0, product is available, and status is `MEMBER` or `GUEST`
 
 ## Files
-- `index.php`: Basic single-file version demonstrating variables, constants, types, casting, operators, and receipt concatenation.
+- `basic.php`: Basic single-file version demonstrating variables, constants, types, casting, operators, and receipt output.
 - `config/constants.php`: Fixed business configuration.
 - `data/smartcafe-data.php`: Sample/raw input.
 - `src/smartcafe.php`: Casting, business calculations, conditions, and status.
 - `views/receipt.php`: HTML receipt display only.
-- `index-refactored.php`: Entry point for the refactored web version.
+- `index.php`: Entry point for the refactored web version.
 - `.gitignore`: Ignores common local/editor files.
 
 ## Run with XAMPP
 1. Copy the `SmartCafeBilling` folder into XAMPP's `htdocs` folder.
-2. For the Basic version, open `http://localhost/SmartCafeBilling/`.
-3. For the refactored version, open `http://localhost/SmartCafeBilling/index-refactored.php`.
-4. To run the Basic version in a terminal, open the project folder and run `php index.php`.
+2. For the Basic version, open `http://localhost/SmartCafeBilling/basic.php`.
+3. For the refactored version, open `http://localhost/SmartCafeBilling/`.
+4. To run the Basic version in a terminal, open the project folder and run `php basic.php`.
 
 ## Expected main calculation for the sample input
 - Subtotal = 45,000 × 3 = 135,000 VND
